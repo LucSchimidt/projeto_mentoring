@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio v2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="nav">
+            <h1 onclick="gotoMain()">Portfolio.</h1>
+            <ul id="main-menu">
+                <li onclick="gotoMain()" ><i class="bi bi-app-indicator"></i><p>Quem sou eu</p></li>
+                <li onclick="gotoEvolution()"><i class="bi bi-code-square"></i><p>Evolução & Conquistas</p></li>
+                <li onclick="gotoApiration()"><i class="bi bi-bullseye"></i></i><p>Aspirações</p></li>
+            </ul>
+            <ul id="social-menu">
+                <i onclick="gotoGithub()" class="bi bi-github"></i>
+                <i onclick="gotoLinkedin()" class="bi bi-linkedin"></i>
+            </ul>
+        </section>
+        <section class="content">
+            <div id="evolution-block" class="block">
+                <h2>Experiencia atual na <b>PUC Minas:</b></h2>
+                <p>Até o Momento, tenho achado o curso de Ciência da Computação e a experiência de maneira geral na PUC Minas, extremamente agradável. É uma universidade realmente diferenciada em diversos aspectos. Possuimos diversos laboratórios e recursos disponíveis para trabalharmos e 
+                    desenvolvermos nossas habilidades dentro das áreas da Ciência da Computação, fora toda a didática dos professores do curso, que até o momento, tem sido cativante e dispensa elogios. </p>
+                <p>Em relação ao conteúdo, os cursos ainda são bem introdutórios, mas isso é um ponto extremamente positivo, uma vez que é necessária uma base forte para construir um conhecimento de qualidade e a PUC está fornecendo isto. A grade geral também é muito interessante.</p>
+                <p>Fora os aspectos tecnicos e do curso em geral, o Campus é vivo. Até o momento não cheguei a andar por toda a área, mas da parte que conheci, encontrei um ambiente tranquilo e muito agradável para estudar e estar.</p>
+            </div>
+            <div id="evolution-block" class="block">
+                <h2>Alguns Projetos Realizados/em Curso:</h2>
+                <h3>Script de Plotagem de gráficos em C:</h3>
+                <div class="img-div">
+                    <img src="assets/Captura de tela 2024-06-24 160355.png" alt="">
+                </div>
+                <p>Neste projeto, desenvolvi totalmente sozinho um script que utilizava a biblioteca graphics.h, ensinada em sala de aula. O objetivo do script era interdisciplinar, misturando conceitos de Calculo com AED.</p>
+                <p>Tendo isso em vista, desenvolvi um programa que coleta os valores dos coeficientes de funções lineares e quadráticas e em seguida imprime os seus gráficos, utiizando exclusivamente as funcionalidades da linguagem de programação C.</p>
+                <p>Você pode encontrar o código deste projeto no meu repositório: <a target="_blank" href="https://github.com/LucSchimidt/plot_grafico_aed">Projeto Final AED</a></p>
+                <br>
+                <br>
+                <h3>Projeto de Hardware - Gameboy com display LCD:</h3>
+                <div class="img-div">
+                    <img src="assets/lphs.jpeg" alt="">
+                </div>
+                <p>Neste trabalho, estou projetando um pequeno video game.</p>
+                <p>Basicamente, com os conhecimentos que foram ensinados durante a disciplina de LPHS, meu objetivo principal será montar um circuito Eletrônico, mesclado com meus conhecimentos de C++ e Algoritmos(Aprendidos em AED) para desenvolver um game que funcione com o hardware.</p>
+            </div>
+            <div id="evolution-block" class="block">
+                <h2>Conquistas:</h2>
+                <div class="img-div">
+                    <img src="assets/soitic.jpeg" alt="">
+                </div>
+                <p>Atualmente consegui uma vaga na área, na empresa <a target="_blank" href="https://www.linkedin.com/company/grupo-soitic/posts/?feedView=all">Grupo SOITIC</a>. Lá, irei utilizar meus conhecimentos em algoritmos e programação para desenvolver soluções web.</p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio v2</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <section class="nav">
+            <h1 onclick="gotoMain()">Portfolio.</h1>
+            <ul id="main-menu">
+                <li onclick="gotoMain()" ><i class="bi bi-app-indicator"></i><p>Quem sou eu</p></li>
+                <li onclick="gotoEvolution()"><i class="bi bi-code-square"></i><p>Evolução & Conquistas</p></li>
+                <li onclick="gotoApiration()"><i class="bi bi-bullseye"></i></i><p>Aspirações</p></li>
+            </ul>
+            <ul id="social-menu">
+                <i onclick="gotoGithub()" class="bi bi-github"></i>
+                <i onclick="gotoLinkedin()" class="bi bi-linkedin"></i>
+            </ul>
+        </section>
+        <section class="content">
+            <div id="about-block" class="block">
+                <img src="assets/lucas.jpeg" alt="">
+                <h2>Lucas Lourenço Schimidt</h2>
+                <p>Meu nome é Lucas Lourenço Schimidt. Tenho 21 anos de idade e sou apaixonado por tecnologia. Meu primeiro contato com a área, assim como da maioria das pessoas que fazem este curso, foi através de jogos eletrônicos. Desde pequeno, sempre gostei muito de jogar em casa e no dia a dia. Conforme fui crescendo, descobri que gostava também de criar coisas. A partir disso, me encontrei na área de tecnologia, onde podia unir o melhor dos dois mundos: computadores e criatividade.</p>
+                <p>Comecei na área com 16 anos desenvolvendo pequenos projetos Front-End com HTML, CSS e JavaScript, e rapidamente fui para meus primeiros projetos remunerados e consequentemente meu primeiro emprego na área, onde aprendi Python, SQL e um pouquinho de C# em uma Start-Up da minha cidade natal, Leme SP, chamada Napp Solutions.</p>
+                <p>Atualmente, residuo em Poços de Caldas MG e procuro evoluir na área de tecnologia o máximo possível, cursando Bacharelado em Ciência da Computação na PUC Minas.</p>
+                <p>Uma atualização para este resumo, é que recentemente consegui uma oportunidade de estágio na área, como um desenvolvedor web!</p>
+            </div>
+        </section>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
